@@ -13,7 +13,7 @@ def main():
         print(f"\nEl resultado de la suma de {num1} + {num2} es: {resultado}\n")
 
     except ValueError:
-        print("\n❌ Error: Por favor introduce solo valores numéricos.\n")
+        print("\n Error: Por favor introduce solo valores numéricos.\n")
 
 if __name__ == "__main__":
     main()
