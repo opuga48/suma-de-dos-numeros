@@ -1,0 +1,19 @@
+def main():
+    print("=== SUMADOR DE DOS NÚMEROS ===")
+    
+    try:
+        # Solicita los números al usuario
+        num1 = float(input("Introduce el primer número: "))
+        num2 = float(input("Introduce el segundo número: "))
+        
+        # Realiza la suma
+        resultado = num1 + num2
+        
+        # Muestra el resultado
+        print(f"\nEl resultado de la suma de {num1} + {num2} es: {resultado}\n")
+
+    except ValueError:
+        print("\n❌ Error: Por favor introduce solo valores numéricos.\n")
+
+if __name__ == "__main__":
+    main()
